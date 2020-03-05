@@ -5,7 +5,7 @@ from vk_api.utils import get_random_id
 from parcer import weather
 
 
-token = 'd7842cff18e3952270798bd8b35995b66ab08ed0b164c5ba0bbfb2e5f4845f87bdeec39d5519ac3815e22'
+token = 'd7842cff18e3952270798bd8b35995b66ab08ed0b164c5ba0bbfb2e5f4845f87bdeec39d5519ac3815e'
 group_id = '192612501'
 vk_session = vk_api.VkApi(token=token)
 vk = vk_session.get_api()
