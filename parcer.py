@@ -1,5 +1,8 @@
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
+import wikipedia
+
+wikipedia.set_lang('ru')
 
 
 def weather():
@@ -16,3 +19,7 @@ def weather():
     return text
 
 print(weather())
+
+def search_wiki(access):
+    result = wikipedia.summary(access, sentences=5)
+    return result
